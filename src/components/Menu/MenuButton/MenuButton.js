@@ -1,14 +1,21 @@
 import React, { Children } from 'react';
 import style from "./MenuButton.module.css"
-const changeMainView = (view) => {
-  console.log(view)
-}
+import DynamicMainView from "components/DynamicMainView/index.js";
+
+
+
+
 
 const MenuButton = (props) =>{
 
     const {children, viewId} = props
 
-    return (
+    const changeMainView = (view) => {
+      console.log("Click On : " +view);
+    }
+    
+    
+    return (   
         <button onClick={() => {changeMainView(viewId)}}> {children} </button>
       );
 
