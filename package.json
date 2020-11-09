@@ -1,0 +1,24 @@
+{
+  "name": "thebard",
+  "version": "1.0.0",
+  "description": "An audio streaming app about video game ost",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yovador/TheBard.git"
+  },
+  "keywords": [
+    "TheBard",
+    "React",
+    "MMI"
+  ],
+  "author": "Yoann Bouquey, Flora Moreau, Arthur Not, Remi Andrez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yovador/TheBard/issues"
+  },
+  "homepage": "https://github.com/Yovador/TheBard#readme"
+}
