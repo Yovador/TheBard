@@ -1,3 +1,3 @@
-# TheBard
+#The Bard
 
-Musique de Jeux !
+MUSIC TO MY EARS
