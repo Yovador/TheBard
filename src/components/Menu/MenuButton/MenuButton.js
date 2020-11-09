@@ -6,6 +6,7 @@ import DynamicMainView from "components/DynamicMainView/index.js";
 
 
 
+
 const MenuButton = (props) =>{
 
     const {children, viewId} = props
@@ -16,7 +17,8 @@ const MenuButton = (props) =>{
     
     
     return (   
-        <button onClick={() => {changeMainView(viewId)}}> {children} </button>
+        <button className = {style.menuButton} onClick={() => {changeMainView(viewId)}}> {children} </button>
+
       );
 
 
