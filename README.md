@@ -30,3 +30,18 @@ Mais demain, qui sait, peut-être simplement
 à faire le don, le don de soi...
 
 Aegis Init....
+
+
+
+     ;;;;;;;;;;;;;;;;;;; 
+     ;;;;;;;;;;;;;;;;;;;
+     ;                 ;
+     ;                 ;
+     ;                 ;
+     ;                 ;
+     ;                 ;
+     ;                 ;
+     ;                 ;
+,;;;;;            ,;;;;;
+;;;;;;            ;;;;;;
+`;;;;'            `;;;;'
