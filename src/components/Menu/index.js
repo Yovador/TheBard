@@ -5,15 +5,21 @@ const Menu = () =>{
 
     return (
         <div className = {style.sidenav}>
-            <ul>
-                <div>The Bard</div>
-                <li>Accueil</li>
-                <li>Jeux</li>
-                <li>Développeur</li>
-                <li>Artiste</li>
-                <li>Editeur</li>
-                <li>Plateforme</li>
-            </ul>
+            
+                <div>
+                    <a href="">The bard</a>
+                </div>
+                <div>
+                    <div>
+                        <a href="">Accueil</a>
+                    </div>
+                    <a href="">Jeux</a>
+                    <a href="">Développeur</a>
+                    <a href="">Artiste</a>
+                    <a href="">Editeur</a>
+                    <a href="">Plateforme</a>
+                </div>
+            
         </div>
       );
 
