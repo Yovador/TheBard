@@ -2,6 +2,7 @@ import React from 'react';
 import style from "./Menu.module.css";
 import MenuButton from "./MenuButton/MenuButton";
 
+
 const Menu = () =>{
 
     return (
@@ -12,7 +13,7 @@ const Menu = () =>{
             <ul>
                 <li><MenuButton viewId = 'jeux'> Jeux </MenuButton></li>
                 <li><MenuButton viewId = 'licences'> Licences </MenuButton></li>
-                <li><MenuButton viewId = 'développeur'> Développeur </MenuButton></li>
+                <li><MenuButton viewId = 'developpeur'> Développeur </MenuButton></li>
                 <li><MenuButton viewId = 'editeur'> Editeur </MenuButton></li>
                 <li><MenuButton viewId = 'plateforme'> Plateforme </MenuButton></li>
             </ul>
