@@ -28,3 +28,5 @@ Ce goût donc qui m'a poussé aujourd'hui
 Mais demain, qui sait, peut-être simplement
 à me mettre au service de la communauté,
 à faire le don, le don de soi...
+
+Aegis Init
