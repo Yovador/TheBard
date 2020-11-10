@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Artiste.module.css'
-import Item from 'components/Item/Item'
+import Item from 'components/MainDisplay/Item/Item'
 
 
 const Artiste = () => {

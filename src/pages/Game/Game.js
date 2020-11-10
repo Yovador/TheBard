@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from './Game.module.css'
-import Item from "components/Item/Item";
-import MainTitle from "components/MainTitle/MainTitle";
-import Separator from "components/Separator/Separator";
+import Item from 'components/MainDisplay/Item/Item'
+import MainTitle from "components/MainDisplay/MainTitle/MainTitle";
+import Separator from "components/MainDisplay/Separator/Separator";
 
 
 const Game = () => {

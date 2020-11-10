@@ -1,5 +1,4 @@
 import React from 'react';
-import MenuButton from 'components/MenuButton/MenuButton';
 import styles from './logo.module.css';
 import {
     BrowserRouter as Router,
