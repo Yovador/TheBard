@@ -19,9 +19,8 @@ const MenuButton = (props) =>{
   if (level == 1) {
     //varclassName = varclassName + ' ' + style.menuButtonLevel1;
     varclassName = `${varclassName} ${style.menuButtonLevel1}`;
-
   }
-
+  
   return (   
     <Link className = {varclassName} to={"/"+viewId}> {children} </Link>
   );

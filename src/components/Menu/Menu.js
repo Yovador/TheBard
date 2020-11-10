@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./Menu.module.css";
-import MenuButton from "components/MenuButton/MenuButton";
+import MenuButton from "./MenuButton/MenuButton";
 import Logo from "./Logo/logo";
 import Compte from "./Compte/Compte";
 
@@ -8,7 +8,7 @@ import Compte from "./Compte/Compte";
 
 const Menu = () =>{
 
-    const imgPath = 'assets/image/logo.png' ;
+    const imgPath = 'assets/image/logo.svg' ;
 
     return (
         <div className = {styles.sidenav}>

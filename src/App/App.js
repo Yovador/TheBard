@@ -13,7 +13,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Artiste from 'pages/Artiste/Artiste';
+import Artiste from '../pages/Artiste/Artiste';
 
 
 

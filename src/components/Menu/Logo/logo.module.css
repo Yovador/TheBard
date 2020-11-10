@@ -1,7 +1,7 @@
 .logotest{
     font-size: 40px;
     background-color: var(--backgroung-logo-search);
-    box-shadow:var(--shadow-div) ;
+    box-shadow:var(--shadow-div);
     margin: 10px;
     padding: 20px;
     color: var(--red);
@@ -12,8 +12,7 @@
 
     max-width: 70px;
     height: auto;
-    float: left;}
-
-.theBard{
-    vertical-align: text-top;
+    float: left;
+    margin-right: 10px;
 }
+
