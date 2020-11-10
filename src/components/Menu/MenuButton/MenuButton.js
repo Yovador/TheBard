@@ -1,6 +1,11 @@
 import React, { Children } from 'react';
-import style from "./MenuButton.module.css"
-import DynamicMainView from "components/DynamicMainView/index.js";
+import style from "./MenuButton.module.css";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 
 
@@ -9,16 +14,12 @@ import DynamicMainView from "components/DynamicMainView/index.js";
 
 const MenuButton = (props) =>{
 
-    const {children, viewId} = props
+  const {children, viewId} = props
 
-    const changeMainView = (view) => {
-      console.log("Click On : " +view);
-    }
-    
+
     
     return (   
-        <button className = {style.menuButton} onClick={() => {changeMainView(viewId)}}> {children} </button>
-
+        <Link className = {style.menuButton} to={"/"+viewId}> {children} </Link>
       );
 
 
