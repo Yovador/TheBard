@@ -5,9 +5,10 @@ const Player = () =>{
 
     return (
         <div className = {styles.musicplayer}>
-         <p>
-             bonjour
-         </p>
+            <div className = {styles.musicplayerimage}>
+                <img src="rayman_origins_logo" alt="Jeu rayman"  ></img>
+            </div>
+         
         </div>
         
       );
