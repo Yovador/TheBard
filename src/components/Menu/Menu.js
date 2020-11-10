@@ -7,7 +7,7 @@ import Logo from "./Logo/logo";
 
 const Menu = () =>{
 
-    const imgPath = 'assets/image/logo.png' ;
+    const imgPath = 'https://tinyurl.com/y6myj3qb' ;
 
     return (
         <div className = {styles.sidenav}>

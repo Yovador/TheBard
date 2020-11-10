@@ -9,7 +9,7 @@ const Logo = (props) =>{
     return (
         <MenuButton  viewId = {viewId}>
             <div className = {styles.logotest}>
-                <img src = 'Logo/logo.png'  /> {children}
+                <img src = {imgPath} alt="[Logo Not Loading]"/> {children}
             </div>
         </MenuButton>
       );
