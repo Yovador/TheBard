@@ -1,10 +1,10 @@
 import React from 'react';
-import style from "./Player.module.css";
+import styles from "./Player.module.css";
 
 const Player = () =>{
 
     return (
-        <div className = {style.musicplayer}>
+        <div className = {styles.musicplayer}>
          <p>
              bonjour
          </p>
