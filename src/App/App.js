@@ -24,10 +24,6 @@ function App() {
 
         <Switch>
 
-          <Route path="/accueil">
-            <Home/>
-          </Route>
-
           <Route path="/jeux">
             <Game/>
           </Route>
@@ -38,6 +34,10 @@ function App() {
 
           <Route path="/dev">
             <Dev/>
+          </Route>
+
+          <Route path="">
+            <Home/>
           </Route>
 
         </Switch>
