@@ -6,7 +6,7 @@ import MenuButton from "components/MenuButton/MenuButton";
 const Compte = () =>{
 
     return (
-      <div className = {styles.compte}>   <MenuButton     viewId = ''          >  Compte         </MenuButton>    </div>
+      <div className = {styles.compte}><MenuButton viewId = ''>Compte</MenuButton></div>
       );
 
 }

@@ -1,5 +1,4 @@
 import React from 'react';
-import MenuButton from 'components/MenuButton/MenuButton';
 import styles from './logo.module.css';
 import {
     BrowserRouter as Router,
@@ -15,7 +14,7 @@ const Logo = (props) =>{
         <Link to={"/"+viewId}>
             <div className = {styles.logotest}>
                 <img src = {imgPath} alt="[Logo Not Loading]"/>
-                <div className={styles.theBard}>{children}</div>
+                <div>{children}</div>
             </div>
         </Link>
       );
