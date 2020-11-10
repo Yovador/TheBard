@@ -2,6 +2,7 @@ import React from 'react';
 import styles from "./Menu.module.css";
 import MenuButton from "components/MenuButton/MenuButton";
 import Logo from "./Logo/logo";
+import Compte from "./Compte/Compte";
 
 
 
@@ -27,6 +28,8 @@ const Menu = () =>{
                 <li>    <MenuButton viewId = 'playlist1' > Playlist 1       </MenuButton>   </li>
                 <li>    <MenuButton viewId = 'playlist2' > Playlist 2       </MenuButton>   </li>
             </ul>
+            <div><Compte/></div>
+
             <div></div>
         </div>
       );
