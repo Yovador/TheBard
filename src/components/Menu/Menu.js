@@ -4,13 +4,15 @@ import MenuButton from "components/MenuButton/MenuButton";
 import Logo from "./Logo/logo";
 
 
+
 const Menu = () =>{
 
+    const imgPath = 'assets/image/logo.png' ;
 
     return (
         <div className = {styles.sidenav}>
 
-            <div>   <Logo         viewId = '' imgUrl='https://tinyurl.com/yy433x2b'> The Bard </Logo> </div>
+            <div>   <Logo         viewId = '' imgPath={imgPath}> The Bard </Logo> </div>
             <div>   <MenuButton   level={1}   viewId = ''          >  Accueil         </MenuButton>    </div>
             <ul>
                 <li>    <MenuButton viewId = 'jeux'      >  Jeux            </MenuButton>   </li>
@@ -25,6 +27,7 @@ const Menu = () =>{
                 <li>    <MenuButton viewId = 'playlist1' > Playlist 1       </MenuButton>   </li>
                 <li>    <MenuButton viewId = 'playlist2' > Playlist 2       </MenuButton>   </li>
             </ul>
+            <div></div>
         </div>
       );
 }
