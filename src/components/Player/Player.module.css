@@ -1,11 +1,11 @@
 .musicplayer {
-  color : white;
+  color : var(--white);
   height: 100px;
   width: 100%;
   position: fixed;
   z-index: 1;
   bottom: 0;
-  background-color: #111;
+  background-color: var(--background-side);
   overflow-x: hidden;
   padding-bottom: 20px;
   }
