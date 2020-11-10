@@ -7,7 +7,7 @@ const Licence = () => {
   const imgPath = 'https://tinyurl.com/yyad2c6c'
 
   return (
-    <Item imgPath={imgPath}>Persona</Item>
+    <Item imgPath={imgPath} info="Licence">Persona</Item>
   )
 }
 
