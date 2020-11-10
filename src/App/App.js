@@ -13,6 +13,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Artiste from 'pages/Artiste/Artiste';
 
 
 
@@ -44,6 +45,10 @@ function App() {
 
           <Route path="/plateforme">
             <Plateforme/>
+          </Route>
+
+          <Route path="/artiste">
+            <Artiste/>
           </Route>
 
           <Route path="">
