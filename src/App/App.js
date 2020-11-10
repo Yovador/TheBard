@@ -1,10 +1,12 @@
 import './App.css'
-import Home from 'pages/Home';
-import Game from 'pages/Game';
-import Licence from 'pages/Licence';
-import Dev from 'pages/Dev';
-import Menu from 'components/Menu';
-import Player from "components/Player/index";
+import Home from 'pages/Home/Home';
+import Game from 'pages/Game/Game';
+import Licence from 'pages/Licence/License';
+import Editeur from 'pages/Editeur/Editeur';
+import Plateforme from 'pages/Plateforme/Plateforme';
+import Dev from 'pages/Dev/Dev';
+import Menu from 'components/Menu/Menu';
+import Player from "components/Player/Player";
 import {
   BrowserRouter as Router,
   Switch,
@@ -24,10 +26,6 @@ function App() {
 
         <Switch>
 
-          <Route path="/accueil">
-            <Home/>
-          </Route>
-
           <Route path="/jeux">
             <Game/>
           </Route>
@@ -38,6 +36,18 @@ function App() {
 
           <Route path="/dev">
             <Dev/>
+          </Route>
+
+          <Route path="/editeur">
+            <Editeur/>
+          </Route>
+
+          <Route path="/plateforme">
+            <Plateforme/>
+          </Route>
+
+          <Route path="">
+            <Home/>
           </Route>
 
         </Switch>
