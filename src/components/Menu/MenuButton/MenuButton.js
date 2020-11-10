@@ -1,5 +1,6 @@
 import React, { Children } from 'react';
 import style from "./MenuButton.module.css";
+import PropTypes from 'prop-types';
 import {
   BrowserRouter as Router,
   Switch,
@@ -9,19 +10,30 @@ import {
 
 
 
-
-
-
 const MenuButton = (props) =>{
 
-  const {children, viewId} = props
+  const {children, viewId, level} = props
+  console.log (level);
+
+  let varclassName = style.menuButton 
+  if (level == 1) {
+    //varclassName = varclassName + ' ' + style.menuButtonLevel1;
+    varclassName = `${varclassName} ${style.menuButtonLevel1}`;
+
+  }
+
+  return (   
+    <Link className = {varclassName} to={"/"+viewId}> {children} </Link>
+  );
 
 
-    
-    return (   
-        <Link className = {style.menuButton} to={"/"+viewId}> {children} </Link>
-      );
+}
 
+MenuButton.propTypes = {
+  level: PropTypes.number
+}
+MenuButton.defaultProps = {
+  level: 2
 
 }
 

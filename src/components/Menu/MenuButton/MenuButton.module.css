@@ -8,9 +8,15 @@
     text-align: center;
     background-color:transparent;
     text-decoration: none;
+
     }
     
     .menuButton:hover {
     color: var(--red);
+    }
+
+    .menuButtonLevel1 {
+        text-decoration: underline var(--red) 2px;
+
     }
 

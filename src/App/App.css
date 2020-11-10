@@ -9,4 +9,5 @@
   --red: #EE2B47;
   --background-pixel:#393C53;
   --menu-font: var(--white) 30px Monserrat;
+  --shadow-div: 10px 5px 10px black;
 }

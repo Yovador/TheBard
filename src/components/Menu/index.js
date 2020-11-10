@@ -10,7 +10,7 @@ const Menu = () =>{
         <div className = {style.sidenav}>
 
             <div className = {style.logo}>The Bard</div>
-            <div>   <MenuButton     viewId = 'accueil'      > Accueil       </MenuButton>   </div>
+            <div>   <MenuButton   level={1}   viewId = 'accueil'      > Accueil       </MenuButton>   </div>
             <ul>
                 <li>    <MenuButton viewId = 'jeux'         > Jeux           </MenuButton>   </li>
                 <li>    <MenuButton viewId = 'licence'     > Licences       </MenuButton>   </li>
@@ -19,7 +19,7 @@ const Menu = () =>{
                 <li>    <MenuButton viewId = 'plateforme'   > Plateforme     </MenuButton>   </li>
             </ul>
 
-            <div>   <MenuButton     viewId = 'playlists'    > Playlists      </MenuButton>   </div>
+            <div>   <MenuButton    level={1}  viewId = 'playlists'    > Playlists      </MenuButton>   </div>
             <ul>
                 <li>    <MenuButton viewId = 'playlist1'    > Playlist 1     </MenuButton>   </li>
                 <li>    <MenuButton viewId = 'playlist2'    > Playlist 2     </MenuButton>   </li>
