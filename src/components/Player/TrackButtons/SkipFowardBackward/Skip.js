@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from "./Play.module.css";
+import styles from "./Skip.module.css";
 
-const Play = () =>{
+const Skip = () =>{
 
     return (
         <div>
@@ -14,4 +14,4 @@ const Play = () =>{
 
 }
 
-export default Play;
+export default Skip;

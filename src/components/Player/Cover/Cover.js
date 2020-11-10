@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from "./Cover.css";
+import styles from "./Cover.module.css";
 
-const Player = () =>{
+const Cover = () =>{
 
     return (
         <div>
@@ -14,4 +14,4 @@ const Player = () =>{
 
 }
 
-export default Player;
+export default Cover;
