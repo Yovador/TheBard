@@ -5,23 +5,24 @@ import MenuButton from "./MenuButton/MenuButton";
 
 const Menu = () =>{
 
+
     return (
         <div className = {style.sidenav}>
 
             <div className = {style.logo}>The Bard</div>
-            <div><MenuButton viewId = 'accueil'> Accueil </MenuButton></div>
+            <div>   <MenuButton     viewId = 'accueil'      > Accueil       </MenuButton>   </div>
             <ul>
-                <li><MenuButton viewId = 'jeux'> Jeux </MenuButton></li>
-                <li><MenuButton viewId = 'licences'> Licences </MenuButton></li>
-                <li><MenuButton viewId = 'developpeur'> Développeur </MenuButton></li>
-                <li><MenuButton viewId = 'editeur'> Editeur </MenuButton></li>
-                <li><MenuButton viewId = 'plateforme'> Plateforme </MenuButton></li>
+                <li>    <MenuButton viewId = 'jeux'         > Jeux           </MenuButton>   </li>
+                <li>    <MenuButton viewId = 'licence'     > Licences       </MenuButton>   </li>
+                <li>    <MenuButton viewId = 'dev'  > Développeur    </MenuButton>   </li>
+                <li>    <MenuButton viewId = 'editeur'      > Editeur        </MenuButton>   </li>
+                <li>    <MenuButton viewId = 'plateforme'   > Plateforme     </MenuButton>   </li>
             </ul>
 
-            <div><MenuButton viewId = 'playlists'> Playlists </MenuButton></div>
+            <div>   <MenuButton     viewId = 'playlists'    > Playlists      </MenuButton>   </div>
             <ul>
-                <li><MenuButton viewId = 'playlist1'> Playlist 1 </MenuButton></li>
-                <li><MenuButton viewId = 'playlist2'> Playlist 2 </MenuButton></li>
+                <li>    <MenuButton viewId = 'playlist1'    > Playlist 1     </MenuButton>   </li>
+                <li>    <MenuButton viewId = 'playlist2'    > Playlist 2     </MenuButton>   </li>
             </ul>
         </div>
       );
