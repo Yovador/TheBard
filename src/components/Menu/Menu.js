@@ -2,7 +2,6 @@ import React from 'react';
 import styles from "./Menu.module.css";
 import MenuButton from "components/MenuButton/MenuButton";
 import Logo from "./Logo/logo";
-import BigButton from "./BigButton/BigButton";
 
 
 const Menu = () =>{
@@ -11,7 +10,7 @@ const Menu = () =>{
     return (
         <div className = {styles.sidenav}>
 
-            <div>   <Logo           viewId = '' imgUrl='https://tinyurl.com/yy433x2b'> The Bard </Logo> </div>
+            <div>   <Logo         viewId = '' imgUrl='https://tinyurl.com/yy433x2b'> The Bard </Logo> </div>
             <div>   <MenuButton   level={1}   viewId = ''          >  Accueil         </MenuButton>    </div>
             <ul>
                 <li>    <MenuButton viewId = 'jeux'      >  Jeux            </MenuButton>   </li>
