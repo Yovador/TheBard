@@ -3,7 +3,7 @@
     .menuButton {
     padding: 6px 6px 6px 32px;
     font-size: 25px;
-    color: red;
+    color: #F6F6F6;
     border: none;
     text-align: center;
     background-color:transparent;
@@ -11,6 +11,6 @@
     }
     
     .menuButton:hover {
-    color: green;
+    color: #EE2B47;
     }
-    
+
