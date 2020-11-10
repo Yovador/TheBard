@@ -7,7 +7,7 @@ import Separator from "components/MainDisplay/Separator/Separator";
 
 const Game = () => {
 
-  const imgPathItem = '' //'https://tinyurl.com/yyvqkmso'
+  const imgPathItem = '' // 'https://tinyurl.com/yyvqkmso'
 
   return (
     <div>
