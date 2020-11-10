@@ -1,11 +1,15 @@
 import React from 'react';
 import styles from './ItemName.module.css';
 
-const ItemName = () =>{
+
+
+const ItemName = (props) =>{
+
+    const {children} = props
 
     return (
         <div>
-             ItemName
+             {children}
         </div>
         
       );

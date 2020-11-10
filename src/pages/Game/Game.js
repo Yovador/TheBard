@@ -1,14 +1,14 @@
 import React from 'react'
 import styles from './Game.module.css'
-import ItemName from 'components/Item/ItemName/ItemName'
-import ItemImg from 'components/Item/ItemImg/ItemImg'
+import Item from "components/Item/Item";
 
 
 const Game = () => {
+
+  const imgPath = 'https://tinyurl.com/yyvqkmso'
+
   return (
-    <div className={styles.container}>
-      <center><ItemName/><ItemImg/></center>
-    </div>
+    <Item imgPath={imgPath}>Persona 5</Item>
   )
 }
 

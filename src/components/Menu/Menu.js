@@ -19,6 +19,7 @@ const Menu = () =>{
                 <li>    <MenuButton viewId = 'jeux'      >  Jeux            </MenuButton>   </li>
                 <li>    <MenuButton viewId = 'licence'   >  Licences        </MenuButton>   </li>
                 <li>    <MenuButton viewId = 'dev'       >  Développeur     </MenuButton>   </li>
+                <li>    <MenuButton viewId = 'artiste'   >  Artiste         </MenuButton>   </li>
                 <li>    <MenuButton viewId = 'editeur'   >  Editeur         </MenuButton>   </li>
                 <li>    <MenuButton viewId = 'plateforme'>  Plateforme      </MenuButton>   </li>
             </ul>

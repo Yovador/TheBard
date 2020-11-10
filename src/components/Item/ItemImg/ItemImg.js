@@ -1,13 +1,14 @@
 import React from 'react';
 import styles from './ItemImg.module.css';
 
-const ItemImg = () =>{
+const ItemImg = (props) =>{
+
+    const {imgPath} = props
 
     return (
-        <div>
-            ItemImg
+        <div className = {styles.logotest}>
+            <img src = {imgPath} alt="[Logo Not Loading]"/>
         </div>
-        
       );
 
 }

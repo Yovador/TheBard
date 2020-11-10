@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Editeur.module.css'
+import Item from "components/Item/Item";
 
 
 const Editeur = () => {
