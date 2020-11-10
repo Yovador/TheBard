@@ -14,7 +14,7 @@ const Logo = (props) =>{
         <Link to={"/"+viewId}>
             <div className = {styles.logotest}>
                 <img src = {imgPath} alt="[Logo Not Loading]"/>
-                <div className={styles.theBard}>{children}</div>
+                <div>{children}</div>
             </div>
         </Link>
       );
