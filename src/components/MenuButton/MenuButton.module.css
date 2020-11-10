@@ -2,7 +2,7 @@
     
     .menuButton {
     padding: 6px 6px 6px 32px;
-    font-size: 25px;
+    font-size: var(--menu-font-size);
     color: var(--white);
     border: none;
     text-align: center;
@@ -16,7 +16,8 @@
     }
 
     .menuButtonLevel1 {
-        text-decoration: underline var(--red) 2px;
+        text-decoration: underline var(--red) 3px;
+        font-size: 50px;
 
     }
 

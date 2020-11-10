@@ -12,7 +12,7 @@ const Menu = () =>{
         <div className = {styles.sidenav}>
 
             <div>   <Logo           viewId = '' imgUrl='https://tinyurl.com/yy433x2b'> The Bard </Logo> </div>
-            <div>   <BigButton      viewId = ''          >  Accueil         </BigButton>    </div>
+            <div>   <MenuButton   level={1}   viewId = ''          >  Accueil         </MenuButton>    </div>
             <ul>
                 <li>    <MenuButton viewId = 'jeux'      >  Jeux            </MenuButton>   </li>
                 <li>    <MenuButton viewId = 'licence'   >  Licences        </MenuButton>   </li>
@@ -21,7 +21,7 @@ const Menu = () =>{
                 <li>    <MenuButton viewId = 'plateforme'>  Plateforme      </MenuButton>   </li>
             </ul>
 
-            <div>   <BigButton      viewId = 'playlists' > Playlists        </BigButton>    </div>
+            <div>   <MenuButton   level={1}   viewId = 'playlists' > Playlists        </MenuButton>    </div>
             <ul>
                 <li>    <MenuButton viewId = 'playlist1' > Playlist 1       </MenuButton>   </li>
                 <li>    <MenuButton viewId = 'playlist2' > Playlist 2       </MenuButton>   </li>
