@@ -8,7 +8,7 @@ import Compte from "./Compte/Compte";
 
 const Menu = () =>{
 
-    const imgPath = 'https://tinyurl.com/y6myj3qb' ;
+    const imgPath = 'assets/image/logo.png' ;
 
     return (
         <div className = {styles.sidenav}>
