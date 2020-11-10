@@ -7,7 +7,6 @@ top: 0;
 left: 0;
 background-color: var(--background-side);
 overflow-x: hidden;
-padding-top: 20px;
 box-shadow: var(--shadow-div);
 }
 
