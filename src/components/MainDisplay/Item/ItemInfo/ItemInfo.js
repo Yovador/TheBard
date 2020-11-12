@@ -1,18 +1,16 @@
 import React from 'react';
 import styles from './ItemInfo.module.css';
+import GreyText from "components/Text/GreyText/GreyText";
 
 
 const ItemInfo = (props) =>{
-
     const {children} = props
-
     return (
-        <div>
+        <GreyText>
              {children}
-        </div>
-        
+        </GreyText>
       );
-
 }
+
 
 export default ItemInfo;
