@@ -9,10 +9,10 @@ const Player = () =>{
 
     return (
         <div className = {styles.musicplayer}>
-            <div className = {styles.musicplayerbox}>
+            <div className = {styles.musicplayerimagebox}>
                 <img className = {styles.musicplayerimage} src = "assets/image/rayman_origins_logo.jpg" alt = "[cover art not loaded]" />
             </div>
-            <div className = {styles.musicplayerbox}>
+            <div className = {styles.musicplayerbutttonbox}>
                 <Play/>
             </div>
          
