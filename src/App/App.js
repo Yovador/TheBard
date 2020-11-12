@@ -31,50 +31,67 @@ function App() {
         <Player/>
 
         <Switch>
-          <Global>
-
           <Route path="/jeux">
-            <Game/>
+            <Global>
+                <Game/>
+            </Global>
           </Route>
 
           <Route path="/licence">
-            <Licence/>
+            <Global>
+              <Licence/>
+            </Global>
           </Route>
 
           <Route path="/dev">
-            <Dev/>
+            <Global>
+              <Dev/>
+            </Global>
           </Route>
 
           <Route path="/editeur">
-            <Editeur/>
+            <Global>
+              <Editeur/>
+            </Global>
           </Route>
 
           <Route path="/plateforme">
-            <Plateforme/>
+            <Global>
+              <Plateforme/>
+            </Global>
           </Route>
 
           <Route path="/artiste">
-            <Artiste/>
+            <Global>
+              <Artiste/>
+            </Global>
           </Route>
 
 
           <Route path="/persona3">
-            <Persona3/>
+            <Global>
+              <Persona3/>
+            </Global>
           </Route>
 
           <Route path="/persona4">
-            <Persona4/>
+            <Global>
+              <Persona4/>
+            </Global>
           </Route>
 
           <Route path="/persona5">
-            <Persona5/>
+            <Global>
+              <Persona5/>
+            </Global>
           </Route>
 
           <Route path="">
-            <Home/>
+            <Global>
+              <Home/>
+            </Global>
+          
           </Route>
-
-          </Global>
         </Switch>
       </Router>
 
