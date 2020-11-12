@@ -13,7 +13,7 @@ import {
 const MenuButton = (props) =>{
 
   const {children, viewId, level} = props
-  console.log (level);
+  //console.log (level);
 
   let varclassName = style.menuButton 
   if (level == 1) {

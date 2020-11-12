@@ -6,7 +6,7 @@ const ItemImg = (props) =>{
     const {imgPath} = props
 
     return (
-        <div className = {styles.logotest}>
+        <div className = {styles.ItemImg}>
             <img src = {imgPath} alt="[Logo Not Loading]"/>
         </div>
       );
