@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import styles from "./Play.module.css";
+import styles from "./Loop.module.css";
 
-const Play = () =>{
+const Loop = () =>{
 
-    const [isPlaying, setIsPlaying] = useState(false);
-    const togglePlay = () => {
-        setIsPlaying(!isPlaying)
+    const [isLooping, setIsLooping] = useState(false);
+    const toggleLoop = () => {
+        setIsLooping(!isLooping)
         // if (blockIsVisible === true) {
         //   setBlockIsVisible(false)
         // }
@@ -16,19 +16,17 @@ const Play = () =>{
 
     return (
         <div>
-            <button onClick={togglePlay}>
-                Play
-             </button>
+            <button onClick={toggleLoop}>Loop</button>
 
-             {isPlaying && (
+             {isLooping && (
                 <div >
-                    the track is playing
+                    Looping current track
                 </div>
              )}
         </div>
-
+        
       );
 
 }
 
-export default Play;
+export default Loop;
