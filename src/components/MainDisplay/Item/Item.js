@@ -12,7 +12,7 @@ const Item = (props) =>{
     return (
         <div className={styles.container}>
             <center>
-            <Link to={viewId}>
+            <Link to={viewId} className={styles.alink}>
                 <ItemImg imgPath={imgPath} />
                 <ItemName> {children} </ItemName>
                 <ItemInfo> {info} </ItemInfo>

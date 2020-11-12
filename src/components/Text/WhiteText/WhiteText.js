@@ -7,7 +7,7 @@ const WhiteText = (props) =>{
     const {children} = props
 
     return (
-        <div>
+        <div className={styles.white}>
              {children}
         </div>
         

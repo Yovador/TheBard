@@ -7,7 +7,7 @@ const GreyText = (props) =>{
     const {children} = props
 
     return (
-        <div>
+        <div className={styles.grey}>
              {children}
         </div>
         
