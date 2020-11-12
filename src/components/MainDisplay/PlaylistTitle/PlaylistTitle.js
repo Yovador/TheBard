@@ -7,13 +7,11 @@ const PlaylistTitle = (props) =>{
     const {children} = props
 
     return (
-        <center>
 
-        <div>
+        <div className={styles.title}>
             {children}
         </div>
         
-        </center>
       );
 
 }

@@ -11,15 +11,15 @@ const ShownPlaylist = (props) =>{
     const {Info, children} = props
 
     return (
-        <center>
             <div>
                 <PlaylistTitle>{children}</PlaylistTitle>
                 <Separator imgPath={'https://tinyurl.com/y3dwf39d'}/>
-                <Item imgPath={Info[0].imgPath} info={Info[0].elementSub} viewId={Info[0].viewId}> {Info[0].elementName}</Item>
-                <Item imgPath={Info[1].imgPath} info={Info[1].elementSub} viewId={Info[1].viewId}> {Info[1].elementName}</Item>
-                <Item imgPath={Info[2].imgPath} info={Info[2].elementSub} viewId={Info[2].viewId} > {Info[2].elementName}</Item>
+                <div className={styles.list}>
+                    <Item imgPath={Info[0].imgPath} info={Info[0].elementSub} viewId={Info[0].viewId}> {Info[0].elementName}</Item>
+                    <Item imgPath={Info[1].imgPath} info={Info[1].elementSub} viewId={Info[1].viewId}> {Info[1].elementName}</Item>
+                    <Item imgPath={Info[2].imgPath} info={Info[2].elementSub} viewId={Info[2].viewId} > {Info[2].elementName}</Item>
+                </div>
             </div>
-        </center>
       );
 
 }
