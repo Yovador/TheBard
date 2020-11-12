@@ -9,7 +9,7 @@ const Compte = () =>{
         <div className={styles.compteText}>Compte </div>
         <img id="imgcompt2" alt="" src="assets/image/param.svg"/>
 
-         </div>
+      </div>
       );
 
 }

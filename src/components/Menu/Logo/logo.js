@@ -11,7 +11,7 @@ const Logo = (props) =>{
     const {imgPath, children, viewId} = props
 
     return (
-        <Link to={"/"+viewId}>
+        <Link to={"/"+viewId} className={styles.alink}>
             <div className = {styles.logotest}>
                 <img src = {imgPath} alt="[Logo Not Loading]"/>
                 <div>{children}</div>
