@@ -2,6 +2,8 @@ import React from 'react';
 
 import styles from "./Player.module.css";
 import Play from "components/Player/TrackButtons/PlayButton/Play"
+import Shuffle from "components/Player/TrackButtons/ShuffleButton/Shuffle"
+import Loop from "components/Player/TrackButtons/LoopButton/Loop"
 
 const Player = () =>{
 
@@ -14,6 +16,14 @@ const Player = () =>{
             </div>
             <div className = {styles.musicplayerbutttonbox}>
                 <Play/>
+            </div>
+
+            <div className = {styles.musicplayerbox}>
+                <Shuffle/>
+            </div>
+
+            <div className = {styles.musicplayerbox}>
+                <Loop/>
             </div>
          
         </div>

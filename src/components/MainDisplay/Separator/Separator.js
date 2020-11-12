@@ -6,11 +6,9 @@ const Separator = (props) =>{
     const {imgPath} = props
 
     return (
-        <center>
             <div className = {styles.logotest}>
-                <img src = {imgPath} alt="[Separator Not Loading]"/>
+                <hr/> 
             </div>
-        </center>
       );
 
 }

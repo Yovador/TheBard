@@ -1,0 +1,16 @@
+.alink{
+    text-decoration: none;
+}
+
+.container1{
+    transform: all 1s ease-in-out;
+    transition-delay: 0.5s;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: flex-start;
+}
+
+.container1:hover{
+    transform: scale(1.2);
+}
