@@ -13,7 +13,7 @@ const Play = () =>{
         // else if (blockIsVisible === false) {
         //   setBlockIsVisible(true)
         // }
-      }
+    }
 
     return (
         <div>

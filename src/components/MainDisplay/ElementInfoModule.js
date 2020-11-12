@@ -4,10 +4,8 @@ class ElementInfo {
     this.elementName = elementName;
     this.elementSub = elementSub;
     this.viewId = viewId;
-
   }
 }
-
 
 
 export default ElementInfo
