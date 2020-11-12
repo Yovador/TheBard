@@ -6,15 +6,17 @@ import ElementInfo from "components/MainDisplay/ElementInfoModule"
 
 const Game = () => {
 
-  let gameOne = new ElementInfo('https://tinyurl.com/yyb8cyov', 'Persona 3', '2006')
-  let gameTwo = new ElementInfo('https://tinyurl.com/yy5rp2yr', 'Persona 4', '2008')
-  let gameThree = new ElementInfo('https://tinyurl.com/y6detf92', 'Persona 5', '2016')
-  const firstCategoryInfo = [gameOne, gameTwo, gameThree]
+  let persona3 = new ElementInfo('https://tinyurl.com/yyb8cyov', 'Persona 3', '2006', 'persona3')
+  let persona4 = new ElementInfo('https://tinyurl.com/yy5rp2yr', 'Persona 4', '2008', 'persona4')
+  let persona5 = new ElementInfo('https://tinyurl.com/y6detf92', 'Persona 5', '2016', 'persona5')
 
-  gameOne = new ElementInfo('https://tinyurl.com/y5lwbemf', 'Celeste', '2018')
-  gameTwo = new ElementInfo('https://tinyurl.com/y47s2y95', 'Super Mario World', '1990')
-  gameThree = new ElementInfo('https://tinyurl.com/y3zmkdyb', 'Hotline Miami', '2012')
-  const secondCategoryInfo = [gameOne, gameTwo, gameThree]
+  const firstCategoryInfo = [persona3, persona4, persona5]
+
+  let celeste = new ElementInfo('https://tinyurl.com/y5lwbemf', 'Celeste', '2018', 'celeste')
+  let supermarioworld = new ElementInfo('https://tinyurl.com/y47s2y95', 'Super Mario World', '1990', 'supermarioworld')
+  let hotlinemiami = new ElementInfo('https://tinyurl.com/y3zmkdyb', 'Hotline Miami', '2012', 'hotlinemiami')
+
+  const secondCategoryInfo = [celeste, supermarioworld, hotlinemiami]
 
 
   return (
