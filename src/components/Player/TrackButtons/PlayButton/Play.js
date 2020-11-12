@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import styles from "./Play.module.css";
 
@@ -20,8 +19,14 @@ const Play = () =>{
             <button onClick={togglePlay}>
                 Play
              </button>
+
+             {isPlaying && (
+                <div >
+                    the track is playing
+                </div>
+      )}
         </div>
-        
+
       );
 
 }

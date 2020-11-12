@@ -16,7 +16,11 @@
     margin-bottom: 100px; /* Same as the width of the sidenav */
     }
   
+.musicplayerbox {
+  height: 100%;
+  width: 10%;
+}
 .musicplayerimage {
   height: 100%;
-  width: 20%;
+  width: 60%;
 }
