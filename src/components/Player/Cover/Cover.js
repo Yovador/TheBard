@@ -5,9 +5,7 @@ const Cover = () =>{
 
     return (
         <div>
-            <p>
-                img game cover corner 
-            </p>
+             <img src ="public/assets/image/rayman_origins_logo.jpg" alt ="Game cover" />
         </div>
         
       );
