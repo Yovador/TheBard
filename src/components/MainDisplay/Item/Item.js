@@ -10,14 +10,14 @@ const Item = (props) =>{
     const{children, imgPath, info, viewId} = props
 
     return (
-        <div className={styles.container}>
+        <div className={styles.container1}>
             <Link to={viewId} className={styles.alink}>
                 <ItemImg imgPath={imgPath} />
                 <WhiteText> {children} </WhiteText>    
                 <GreyText> {info} </GreyText>
             </Link>
         </div>
-      );
+      ); 
 
 }
 

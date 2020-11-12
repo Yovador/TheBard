@@ -2,14 +2,15 @@
     text-decoration: none;
 }
 
-.container{
+.container1{
     transform: all 1s ease-in-out;
     transition-delay: 0.5s;
-    height: 300px;
-    width: auto;
     display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: flex-start;
 }
 
-.container:hover{
+.container1:hover{
     transform: scale(1.2);
 }

@@ -7,7 +7,7 @@ const Global = (props) =>{
     const {children} = props
 
     return (
-        <div>
+        <div className={styles.marge}>
           {children}
         </div>
         
