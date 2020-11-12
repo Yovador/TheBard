@@ -6,4 +6,4 @@ class ElementInfo {
   }
 }
 
-module.exports = ElementInfo
+export default ElementInfo
