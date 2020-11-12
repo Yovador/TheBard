@@ -10,5 +10,5 @@
   --background-pixel:#393C53;
   --menu-font-size: 30px ;
   --shadow-div: 2px -2px 10px black;
-  background-color: var(--background-center);
+  /*background-color: var(--background-center);*/
 }
