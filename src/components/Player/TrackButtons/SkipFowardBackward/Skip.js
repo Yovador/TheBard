@@ -6,7 +6,7 @@ const Skip = () =>{
     return (
         <div>
             <p>
-                img game cover corner 
+                skip B/F
             </p>
         </div>
         
