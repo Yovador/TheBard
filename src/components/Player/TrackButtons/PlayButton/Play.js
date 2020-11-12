@@ -6,7 +6,7 @@ const Play = () =>{
     return (
         <div>
             <p>
-                img game cover corner 
+                Play da music
             </p>
         </div>
         

@@ -1,12 +1,12 @@
 import React from 'react';
-import styles from "./Cover.css";
+import styles from "./Shuffle.module.css";
 
-const Player = () =>{
+const Shuffle = () =>{
 
     return (
         <div>
             <p>
-                img game cover corner 
+                Shuffle 
             </p>
         </div>
         
@@ -14,4 +14,4 @@ const Player = () =>{
 
 }
 
-export default Player;
+export default Shuffle;

@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from "./CurrentTrack.css";
+import styles from "./CurrentTrack.module.css";
 
-const Player = () =>{
+const CurrentTrack = () =>{
 
     return (
         <div>
@@ -14,4 +14,4 @@ const Player = () =>{
 
 }
 
-export default Player;
+export default CurrentTrack;
