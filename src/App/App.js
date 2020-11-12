@@ -17,7 +17,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Artiste from '../pages/Artiste/Artiste';
+import Artiste from 'pages/Artiste/Artiste';
+import Global from 'components/Global/Global';
 
 
 
@@ -30,6 +31,7 @@ function App() {
         <Player/>
 
         <Switch>
+          <Global>
 
           <Route path="/jeux">
             <Game/>
@@ -72,6 +74,7 @@ function App() {
             <Home/>
           </Route>
 
+          </Global>
         </Switch>
       </Router>
 
