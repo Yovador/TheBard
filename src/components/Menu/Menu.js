@@ -24,7 +24,7 @@ const Menu = () =>{
                 <li>    <MenuButton viewId = 'plateforme'>  Plateforme      </MenuButton>   </li>
             </ul>
 
-            <div>   <MenuButton   level={1}   viewId = 'playlists' > Playlists        </MenuButton>    </div>
+            <div>   <MenuButton   level={1}    viewId = 'playlists' > Playlists        </MenuButton>    </div>
             <ul>
                 <li>    <MenuButton viewId = 'playlist1' > Playlist 1       </MenuButton>   </li>
                 <li>    <MenuButton viewId = 'playlist2' > Playlist 2       </MenuButton>   </li>
@@ -32,7 +32,7 @@ const Menu = () =>{
             
             <div><Compte/></div>
 
-            <div></div>
+      
         </div>
       );
 }
