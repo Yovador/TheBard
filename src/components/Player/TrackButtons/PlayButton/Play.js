@@ -20,6 +20,12 @@ const Play = () =>{
             <button onClick={togglePlay}>
                 Play
              </button>
+
+             {isPlaying && (
+                <div >
+                    the track is playing
+                </div>
+      )}
         </div>
         
       );
