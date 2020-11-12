@@ -1,3 +1,15 @@
 .alink{
     text-decoration: none;
 }
+
+.container{
+    transform: all 1s ease-in-out;
+    transition-delay: 0.5s;
+    height: 300px;
+    width: auto;
+    display: flex;
+}
+
+.container:hover{
+    transform: scale(1.2);
+}

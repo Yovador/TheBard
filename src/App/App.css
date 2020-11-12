@@ -13,4 +13,5 @@
   background-color: var(--background-center);
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+  --marge-menu: 300px;
 }
