@@ -1,15 +1,20 @@
 import React from 'react'
 import styles from './Licence.module.css'
-import Item from 'components/MainDisplay/Item/Item'
-
-
-
+import ShownPlaylist from "components/MainDisplay/ShownPlaylist/ShownPlaylist";
+import MainTitle from "components/MainDisplay/MainTitle/MainTitle"
+import { persona, yakuza, darksouls } from 'data/ElementInfoModule';
 
 const Licence = () => {
-  const imgPath = 'https://tinyurl.com/yyad2c6c'
+  const firstCategoryInfo = [persona, yakuza, darksouls]
+
 
   return (
-    <Item imgPath={imgPath} info="Licence">Persona</Item>
+    <div>
+
+      <MainTitle>Tendance</MainTitle>
+      <ShownPlaylist Info = {firstCategoryInfo}> From Japan </ShownPlaylist>
+
+    </div>
   )
 }
 
