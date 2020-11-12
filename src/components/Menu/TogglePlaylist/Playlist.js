@@ -17,7 +17,7 @@ const Playlist = () =>{
     return (
         <div>
             <div onClick={togglePlaylist}>
-                Play
+                Playlists
              </div>
 
              {isOpen && (

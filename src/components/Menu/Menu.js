@@ -33,7 +33,7 @@ const Menu = () =>{
 
             <div><Compte/></div>
 
-            <div></div>
+      
         </div>
       );
 }

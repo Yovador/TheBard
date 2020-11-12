@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './EntryInfo.module.css';
-import OneEntryDesc from './OneEntryDesc/OneEntryDesc'
-import OneEntrySubtitle from './OneEntrySubtitle/OneEntrySubtitle'
 import OneEntryTitle from './OneEntryTitle/OneEntryTitle'
+import WhiteText from 'components/Text/WhiteText/WhiteText'
+import GreyText from 'components/Text/GreyText/GreyText'
 import MainImage from './MainImage/MainImage'
 
 const EntryInfo = (props) =>{
@@ -14,8 +14,8 @@ const EntryInfo = (props) =>{
 
             <MainImage imgPath = {imgPath} />
             <OneEntryTitle> {title} </OneEntryTitle>
-            <OneEntrySubtitle> {subtitle} </OneEntrySubtitle>
-            <OneEntryDesc> {desc} </OneEntryDesc>
+            <WhiteText> {subtitle} </WhiteText>
+            <GreyText> {desc} </GreyText>
 
         </div>
     )
