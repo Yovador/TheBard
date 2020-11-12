@@ -34,6 +34,6 @@ MenuButton.propTypes = {
 MenuButton.defaultProps = {
   level: 2
 
-}
+} 
 
 export default MenuButton;

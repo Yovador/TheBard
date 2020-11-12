@@ -7,7 +7,7 @@ import { persona4 } from 'data/ElementInfoModule'
 const Persona4 = () => {
   return (
     <div>
-      <center> <EntryInfo imgPath={persona4.imgPath} title={persona4.elementName} subtitle={persona4.elementSub} desc={persona4.elementDesc}/> </center>
+      <EntryInfo imgPath={persona4.imgPath} title={persona4.elementName} subtitle={persona4.elementSub} desc={persona4.elementDesc}/> 
     </div>
   )
 }

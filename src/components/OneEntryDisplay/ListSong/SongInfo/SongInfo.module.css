@@ -1,0 +1,25 @@
+.infosmusic{
+    display: flex;
+    justify-content: space-between;
+    overflow-wrap: break-word;
+    text-align: center;
+    color: var(--red);
+    border-radius: 50px;
+    background-color: var(--background-side);
+    margin: 10px;
+    padding: 10px;
+    align-items:center;
+
+}
+
+.longueur40{
+    width: 40%;
+}
+.longueur30{
+    width: 30%;
+}
+.longueur10{
+    width: 10%;
+}
+
+

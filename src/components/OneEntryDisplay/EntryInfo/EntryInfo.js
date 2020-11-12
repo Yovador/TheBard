@@ -10,12 +10,18 @@ const EntryInfo = (props) =>{
     const {imgPath, title, subtitle, desc} = props
 
     return(
-        <div>
+        <div className={styles.prez}>
 
-            <MainImage imgPath = {imgPath} />
-            <OneEntryTitle> {title} </OneEntryTitle>
-            <WhiteText> {subtitle} </WhiteText>
-            <GreyText> {desc} </GreyText>
+            <div>
+                <MainImage imgPath = {imgPath}/>
+            </div>
+            <div className={styles.infos}>
+                <div>
+                    <OneEntryTitle> {title} </OneEntryTitle>
+                    <WhiteText> {subtitle} </WhiteText>
+                </div>
+                <GreyText className={styles.grey} > {desc} </GreyText>
+            </div>
 
         </div>
     )

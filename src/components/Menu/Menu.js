@@ -25,11 +25,21 @@ const Menu = () =>{
                 <li>    <MenuButton viewId = 'plateforme'>  Plateforme      </MenuButton>   </li>
             </ul>
 
+{/*
             <div>   <MenuButton   level={1}   viewId = 'playlists' > <Playlist/>        </MenuButton>    </div>
-            <ul>
+             <ul>
                 <li>    <MenuButton viewId = 'playlist1' > Playlist 1       </MenuButton>   </li>
                 <li>    <MenuButton viewId = 'playlist2' > Playlist 2       </MenuButton>   </li>
-            </ul>
+            </ul> */}
+
+
+            <div class="dropdown">
+                <MenuButton href="javascript:void(0)" class="dropbtn" onclick="myFunction()"   level={1}   viewId = 'playlists' >Dropdown</MenuButton>
+                <ul class="dropdown-content" id="myDropdown">
+                    <li>    <MenuButton viewId = 'playlist1' > Playlist 1       </MenuButton>   </li>
+                    <li>    <MenuButton viewId = 'playlist2' > Playlist 2       </MenuButton>   </li>
+                </ul>
+            </div>
 
             <div><Compte/></div>
 
@@ -39,3 +49,22 @@ const Menu = () =>{
 }
 
 export default Menu;
+
+
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show")
+}
+
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
