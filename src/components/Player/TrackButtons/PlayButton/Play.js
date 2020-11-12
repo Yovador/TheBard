@@ -1,11 +1,11 @@
-import React from 'react';
+
 import React, { useState } from 'react';
 import styles from "./Play.module.css";
 
 const Play = () =>{
 
     const [isPlaying, setIsPlaying] = useState(false);
-    const isPlaying = () => {
+    const togglePlay = () => {
         setIsPlaying(!isPlaying)
         // if (blockIsVisible === true) {
         //   setBlockIsVisible(false)
@@ -17,9 +17,9 @@ const Play = () =>{
 
     return (
         <div>
-            <p>
-                Play da music
-            </p>
+            <button onClick={togglePlay}>
+                Play
+             </button>
         </div>
         
       );

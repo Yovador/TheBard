@@ -29,6 +29,7 @@ const Menu = () =>{
                 <li>    <MenuButton viewId = 'playlist1' > Playlist 1       </MenuButton>   </li>
                 <li>    <MenuButton viewId = 'playlist2' > Playlist 2       </MenuButton>   </li>
             </ul>
+            
             <div><Compte/></div>
 
             <div></div>
