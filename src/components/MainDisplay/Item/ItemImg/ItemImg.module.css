@@ -1,11 +1,5 @@
 .ItemImg{
-
-/*Pas définitif juste pour tester*/
-
-    width: 200px;
-    height: 200px;
+    max-height: 300px;
+    max-width: 300px;
     overflow: hidden;
-
-/*//////////////////////////////*/
-
 }

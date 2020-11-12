@@ -1,0 +1,5 @@
+.mainTitle{
+    color: var(--white);
+    text-shadow: var(--shadow-div);
+    font-size: 80px;
+}

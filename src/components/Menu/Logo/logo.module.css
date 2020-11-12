@@ -1,10 +1,11 @@
 .logotest{
     font-size: 40px;
-    background-color: var(--backgroung-logo-search);
+    background-color: var(--background-logo-search);
     box-shadow:var(--shadow-div);
     margin: 10px;
     padding: 20px;
     color: var(--red);
+    border-radius: 10px;
 }
 
 

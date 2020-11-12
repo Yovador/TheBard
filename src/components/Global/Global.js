@@ -5,7 +5,7 @@ import styles from './Global.module.css';
 const Global = (props) =>{
     const {children} = props
     return (
-        <div>
+        <div className={styles.marge}>
           {children}
         </div>
       );

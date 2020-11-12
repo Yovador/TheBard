@@ -7,13 +7,11 @@ const MainTitle = (props) =>{
     const {children} = props
 
     return (
-        <center>
 
-        <div>
+        <div className={styles.mainTitle}>
             {children}
         </div>
         
-        </center>
       );
 
 }
