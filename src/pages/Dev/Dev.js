@@ -5,7 +5,7 @@ import styles from './Dev.module.css'
 
 const Dev = () => {
   return (
-    <div className={styles.container}>
+    <div>
       <center> Dev </center>
     </div>
   )
