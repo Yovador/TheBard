@@ -5,16 +5,21 @@ import OneEntrySubtitle from './OneEntrySubtitle/OneEntrySubtitle'
 import OneEntryTitle from './OneEntryTitle/OneEntryTitle'
 import MainImage from './MainImage/MainImage'
 
-const EntryInfo = () =>{
+const EntryInfo = (props) =>{
+
+    const {imgPath, title, subtitle, desc} = props
 
     return(
         <div>
 
-            <OneEntryTitle> Persona 3 </OneEntryTitle>
+            <MainImage imgPath = {imgPath} />
+            <OneEntryTitle> {title} </OneEntryTitle>
+            <OneEntrySubtitle> {subtitle} </OneEntrySubtitle>
+            <OneEntryDesc> {desc} </OneEntryDesc>
 
         </div>
     )
 
-
-
 }
+
+export default EntryInfo;

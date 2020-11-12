@@ -1,10 +1,10 @@
 import React from 'react';
-import React, { useState } from 'react';
+//import React, { useState } from 'react';
 import styles from "./Play.module.css";
 
 const Play = () =>{
 
-    const [isPlaying, setIsPlaying] = useState(false);
+    /*const [isPlaying, setIsPlaying] = useState(false);
     const isPlaying = () => {
         setIsPlaying(!isPlaying)
         // if (blockIsVisible === true) {
@@ -14,7 +14,7 @@ const Play = () =>{
         //   setBlockIsVisible(true)
         // }
     }
-
+*/
     return (
         <div>
             <p>
