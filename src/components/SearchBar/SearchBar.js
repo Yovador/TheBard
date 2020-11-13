@@ -2,9 +2,8 @@ import React from 'react';
 import styles from './SearchBar.module.css';
 
 
-const SearchBar = (props) =>{
+const SearchBar = () =>{
 
-    const {children} = props
 
     return (
 

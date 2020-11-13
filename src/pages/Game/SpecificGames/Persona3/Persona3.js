@@ -1,6 +1,5 @@
 import React from 'react'
 import EntryInfo from 'components/OneEntryDisplay/EntryInfo/EntryInfo'
-import styles from './Persona3.module.css'
 import { persona3 } from 'data/ElementInfoModule'
 import { p3OST } from 'data/SongInfoModule'
 import ListSong from 'components/OneEntryDisplay/ListSong/ListSong'
