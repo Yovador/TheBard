@@ -1,3 +1,16 @@
-.TrackButton:hover {
+.TrackButton svg {
+    fill : var(--white);
+}
+.TrackButton svg:hover {
+    fill : var(--red);
+    transform: scale(1.2);
+
+}
+
+.TrackButton1 svg {
+    fill : var(--red);
+}
+.TrackButton1 svg:hover {
+    fill : var(--white);
     transform: scale(1.2);
 }
