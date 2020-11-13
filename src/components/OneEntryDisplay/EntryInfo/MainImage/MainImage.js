@@ -7,7 +7,7 @@ const MainImage = (props) =>{
 
     return (
         <div>
-            <img className={styles.ItemImg} src = {imgPath} alt="[Image Not Loading]"/>
+            <img className={styles.ItemImg} src = {imgPath} alt="[Vignette Not Loading]"/>
         </div>
       );
 

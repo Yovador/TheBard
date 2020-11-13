@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from './Persona5.module.css'
 import EntryInfo from 'components/OneEntryDisplay/EntryInfo/EntryInfo'
 import { persona5 } from 'data/ElementInfoModule'
 

@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from './Game.module.css'
 import ShownPlaylist from "components/MainDisplay/ShownPlaylist/ShownPlaylist";
 import MainTitle from "components/MainDisplay/MainTitle/MainTitle"
 import { celeste, hotlinemiami, persona3, persona4, persona5, supermarioworld } from 'data/ElementInfoModule';

@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from './Plateforme.module.css'
 import ShownPlaylist from "components/MainDisplay/ShownPlaylist/ShownPlaylist";
 import MainTitle from "components/MainDisplay/MainTitle/MainTitle"
 import { ps2, nswitch, ps3 } from 'data/ElementInfoModule';

@@ -1,6 +1,4 @@
 import React from 'react'
-import styles from './Home.module.css'
-
 import ShownPlaylist from "components/MainDisplay/ShownPlaylist/ShownPlaylist";
 import MainTitle from "components/MainDisplay/MainTitle/MainTitle"
 import { persona, yakuza, darksouls,  persona3, persona4, persona5 } from 'data/ElementInfoModule';

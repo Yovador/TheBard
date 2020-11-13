@@ -1,9 +1,7 @@
 import React from 'react';
 import styles from './Separator.module.css';
 
-const Separator = (props) =>{
-
-    const {imgPath} = props
+const Separator = () =>{
 
     return (
             <div className = {styles.logotest}>

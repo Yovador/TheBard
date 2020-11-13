@@ -10,7 +10,7 @@ const SongNumber = (props) =>{
 
     return(
         <div className={styles.cont} >
-            <img src={imgPath} className={styles.imgjeu} />
+            <img src={imgPath} className={styles.imgjeu} alt=''/>
             <div className={styles.fontnb}>
                 {children}
             </div>
