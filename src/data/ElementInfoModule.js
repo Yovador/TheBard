@@ -29,7 +29,18 @@ export const persona = new          ElementInfo('https://tinyurl.com/yyad2c6c', 
 export const yakuza = new           ElementInfo('https://tinyurl.com/y22rrkxa', 'Yakuza', 'Ryu Ga Gotoku Studio', 'yakuza', 'Dame da ne')
 export const darksouls = new        ElementInfo('https://tinyurl.com/y3syzu7y', 'Dark Souls', 'From Software', 'darksouls', 'Humanity Restored')
 
-export const atlus = new            ElementInfo('https://tinyurl.com/yy7ngz2l', 'Atlus', 'atlus', 'Megami Tensei, Shin Megami Tensei, Shin Megami Tensei Persona, etc', personaGameList)
-export const ryuga = new            ElementInfo('https://tinyurl.com/y3anv7fv', 'Ryu ga gotoku Studio', 'ryuga', 'The Yakuza way')
-export const fromsoftware = new     ElementInfo('https://tinyurl.com/y5maupq2', 'From Software', 'fromsoftware', 'You gonna die')
+export const atlus = new            ElementInfo('https://tinyurl.com/yy7ngz2l', 'Atlus','Dev' ,'atlus', 'Megami Tensei, Shin Megami Tensei, Shin Megami Tensei Persona, etc', personaGameList)
+export const ryuga = new            ElementInfo('https://tinyurl.com/y3anv7fv', 'Ryu ga gotoku Studio','Dev', 'ryuga', 'The Yakuza way')
+export const fromsoftware = new     ElementInfo('https://tinyurl.com/y5maupq2', 'From Software','Dev', 'fromsoftware', 'You gonna die')
 
+export const sega = new             ElementInfo('https://tinyurl.com/yynth8aw', 'SEGA', 'Editeur', 'sega', "C'est plus fort que toi", personaGameList)
+export const sony = new             ElementInfo('https://tinyurl.com/y3uorww4', 'Sony', 'Editeur', 'sony', "Playstation and stuff")
+export const nintendo = new         ElementInfo('https://tinyurl.com/y4u7qt8g', 'Nintendo', 'Editeur','nintendo', 'Mama mia')
+
+export const ps2 = new              ElementInfo('https://tinyurl.com/hxe22pv', 'Playstation 2', '2000', 'ps2', "Dualshock go brrrr", personaGameList)
+export const nswitch = new          ElementInfo('https://tinyurl.com/y2cuupe7', 'Switch', '2017', 'switch', "Joycon drift baby")
+export const ps3 = new              ElementInfo('https://tinyurl.com/y5s2q2n2', 'Playstation 3', '2006','ps3', 'Dualshock, le retour')
+
+export const smeguro = new          ElementInfo('https://tinyurl.com/y47x23lj', 'Shoji Meguro', 'Compositeur', 'smeguro', "The persona music guy", personaGameList)
+export const hshoji = new           ElementInfo('https://tinyurl.com/yyhdytfc', 'Hidenori Shoji', 'Compositeur', 'hshoji', "Yakuza composer")
+export const linaizumi = new        ElementInfo('https://tinyurl.com/yywzoy39', 'Lyn Inaizumi', 'Chanteuse','linaizumi', 'YOU NEVER SEE IT COMING')
