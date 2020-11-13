@@ -30,8 +30,7 @@ function App() {
     <div>
       <Router>
 
-        
-
+        <SearchBar/>
         <Menu/>
         <Player/>
 
