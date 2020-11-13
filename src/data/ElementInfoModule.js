@@ -1,10 +1,11 @@
 class ElementInfo {
-  constructor(imgPath, elementName, elementSub, viewId, elementDesc){
+  constructor(imgPath, elementName, elementSub, viewId, elementDesc, list){
     this.imgPath = imgPath;
     this.elementName = elementName;
     this.elementSub = elementSub;
     this.viewId = viewId;
     this.elementDesc = elementDesc;
+    this.list = list;
   }
 }
 
@@ -21,7 +22,10 @@ export const hotlinemiami = new     ElementInfo('https://tinyurl.com/y3zmkdyb', 
 
 ////////////////////////////////
 /*///////////LICENSE//////////*/
-export const persona = new          ElementInfo('https://tinyurl.com/yyad2c6c', 'Persona', 'Atlus', 'persona', 'I am thou... Thou art I...')
+
+const personaGameList= [persona3, persona4, persona5, persona3, persona4, persona5, persona3, persona4, persona5, persona3, persona4, persona5]
+
+export const persona = new          ElementInfo('https://tinyurl.com/yyad2c6c', 'Persona', 'Atlus', 'persona', 'I am thou... Thou art I...', personaGameList)
 export const yakuza = new           ElementInfo('https://tinyurl.com/y22rrkxa', 'Yakuza', 'Ryu Ga Gotoku Studio', 'yakuza', 'Dame da ne')
 export const darksouls = new        ElementInfo('https://tinyurl.com/y5maupq2', 'Dark Souls', 'From Software', 'darksouls', 'Humanity Restored')
 
