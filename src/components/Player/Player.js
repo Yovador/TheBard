@@ -4,6 +4,7 @@ import styles from "./Player.module.css";
 import Play from "components/Player/TrackButtons/PlayButton/Play"
 import Shuffle from "components/Player/TrackButtons/ShuffleButton/Shuffle"
 import Loop from "components/Player/TrackButtons/LoopButton/Loop"
+import Mute from "components/Player/TrackButtons/MuteButton/Mute"
 
 const Player = () =>{
 
@@ -18,7 +19,7 @@ const Player = () =>{
                 <Play/>
             </div>
             <div className = {styles.musicplayershuffleloopbox}>
-                <Shuffle/>           
+                <Shuffle/>
                 <Loop/>
             </div>
             <div className = {styles.musicplayerbarbox}>
@@ -28,7 +29,7 @@ const Player = () =>{
                 <img src ="assets/image/TrackBar.png" alt ="Code not loaded" />
             </div>
             <div className = {styles.musicplayervolumebox}>
-
+                <Mute/>
                 <img src ="assets/image/VolumeBar.png" alt ="Code not loaded" />
             </div>
 
