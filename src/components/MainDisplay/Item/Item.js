@@ -13,8 +13,8 @@ const Item = (props) =>{
         <div className={styles.container1}>
             <Link to={viewId} className={styles.alink}>
                 <ItemImg imgPath={imgPath} />
-                <WhiteText> {children} </WhiteText>    
-                <GreyText> {info} </GreyText>
+                <WhiteText > {children} </WhiteText>    
+                <GreyText > {info} </GreyText>
             </Link>
         </div>
       ); 
