@@ -6,25 +6,28 @@ const Play = () =>{
     const [isPlaying, setIsPlaying] = useState(false);
     const togglePlay = () => {
         setIsPlaying(!isPlaying)
-        // if (blockIsVisible === true) {
-        //   setBlockIsVisible(false)
-        // }
-        // else if (blockIsVisible === false) {
-        //   setBlockIsVisible(true)
-        // }
+     
     }
 
     return (
         <div>
             <div onClick={togglePlay}>
-                <img src = "assets/image/Play.png" alt = "Button not loaded" />
-             </div>
+                
+             
 
-             {isPlaying && (
-                <div >
-                    <img src = "assets/image/Pause.png" alt = "Button not loaded" />
-                </div>
-             )}
+                {isPlaying && (
+                    <div >
+                        <img src = "assets/image/Pause.png" alt = "Button not loaded" />
+                    </div>
+                )}
+
+
+                {!isPlaying && (
+                    <div >
+                        <img src = "assets/image/Play.png" alt = "Button not loaded" />
+                    </div>
+                )}
+            </div>
         </div>
 
       );

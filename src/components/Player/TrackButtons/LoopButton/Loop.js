@@ -16,11 +16,13 @@ const Loop = () =>{
 
     return (
         <div>
-            <button onClick={toggleLoop}>Loop</button>
+            <div onClick={toggleLoop}>
+                <img src = "assets/image/loop.png" alt = "Code not loaded" />
+            </div>
 
              {isLooping && (
                 <div >
-                    Looping current track
+                    loop on
                 </div>
              )}
         </div>
