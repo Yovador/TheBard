@@ -23,14 +23,14 @@ const Shuffle = () =>{
 
                 {isShuffling && (
                     <div >
-                        <img src = "assets/image/ShuffleHover.png" alt = "Button not loaded" />
+                        <img src = "assets/image/Shuffle.svg" alt = "Button not loaded" />
                     </div>
                 )}
 
 
                 {!isShuffling && (
                     <div >
-                        <img src = "assets/image/Shuffle.png" alt = "Button not loaded" />
+                        <img src = "assets/image/ShuffleHover.svg" alt = "Button not loaded" />
                     </div>
                 )}
 

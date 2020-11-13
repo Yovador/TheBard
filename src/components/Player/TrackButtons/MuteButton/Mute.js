@@ -17,14 +17,14 @@ const Mute = () =>{
 
                 {isMute && (
                     <div >
-                        <img src = "assets/image/VolumeIcon.png" alt = "Button not loaded" />
+                        <img src = "assets/image/VolumeIcon.svg" alt = "Button not loaded" />
                     </div>
                 )}
 
 
                 {!isMute && (
                     <div >
-                        <img src = "assets/image/Mute.png" alt = "Button not loaded" />
+                        <img src = "assets/image/Mute.svg" alt = "Button not loaded" />
                     </div>
                 )}
             </div>
