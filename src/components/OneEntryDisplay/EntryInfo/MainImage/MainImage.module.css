@@ -1,6 +1,15 @@
 .ItemImg{
 
+<<<<<<< HEAD
     max-width: 300px;
     max-height: 300px;   
     
 }
+=======
+    
+    max-height: 300px;
+    max-width: auto;
+   
+    
+}
+>>>>>>> b95134e9680bc6ba56f9c31427c5bc9711a3a5f5

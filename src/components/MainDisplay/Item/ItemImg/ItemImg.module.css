@@ -2,14 +2,21 @@
     height: 300px;
     max-width: 300px;
     overflow: hidden;
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     transform: all 1s ease-in-out;
     transition-delay: 0.5s;
+    align-items: center;
+    justify-content: center;
+
 
 }
 
 .ItemImg:hover{
     transform: scale(1.2);
+}
+
+.ItemImg img{
+    width: 100%;
 }

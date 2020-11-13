@@ -9,7 +9,10 @@ const SearchBar = (props) =>{
     return (
 
         <div className={styles.SearchBar}>
-           SearchBar
+          <div className={styles.position}>
+            <input className={styles.input} type="text" id="name" name="name" requiredminlength="4" maxlength="8" size="20" placeholder="Recherche"/>
+            <img alt="" src="assets/image/loupe.svg"/>
+           </div>
         </div>
         
       );
