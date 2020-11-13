@@ -1,7 +1,11 @@
 .ItemImg{
 
     max-height: 300px;
+<<<<<<< HEAD
     max-width: auto;
    
     
+=======
+    max-width: 300px;
+>>>>>>> a17845b9149442b64e3aa13d9be21c9093b246d3
 }
