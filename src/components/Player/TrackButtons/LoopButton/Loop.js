@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import styles from "./Loop.module.css";
 
 const Loop = () =>{
 

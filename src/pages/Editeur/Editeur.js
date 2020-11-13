@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from './Editeur.module.css'
 import ShownPlaylist from "components/MainDisplay/ShownPlaylist/ShownPlaylist";
 import MainTitle from "components/MainDisplay/MainTitle/MainTitle"
 import { sega, nintendo, sony } from 'data/ElementInfoModule';

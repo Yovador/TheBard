@@ -8,7 +8,7 @@ const PlaylistAddButton = () =>{
 
     return(
         <div className={styles.imgjeu}>
-            <img src={imgPath} />
+            <img src={imgPath} alt='Button not loading' />
         </div>
     )
 
