@@ -21,6 +21,8 @@ import {
 import Artiste from 'pages/Artiste/Artiste';
 import Global from 'components/Global/Global';
 
+import SearchBar from "components/SearchBar/SearchBar";
+
 
 
 function App() {
@@ -28,6 +30,7 @@ function App() {
     <div>
       <Router>
 
+        <SearchBar/>
         <Menu/>
         <Player/>
 
