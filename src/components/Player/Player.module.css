@@ -43,10 +43,12 @@
 
 .musicplayerbarbox {
   display: flex;
+  flex-wrap: wrap;
   height: 100%;
   width: 45%;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  align-content: flex-start;
 }
 
 .musicplayervolumebox {
