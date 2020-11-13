@@ -15,7 +15,7 @@ const Persona = () => {
     <div>
         <EntryInfo imgPath={persona.imgPath} title={persona.elementName} subtitle={persona.elementSub} desc={persona.elementDesc}/> 
         <hr/>
-        <ListElement list={persona.list} />
+        <ListElement className={styles.list} list={persona.list} />
     </div>
   )
 }
