@@ -17,18 +17,26 @@ const Loop = () =>{
     return (
         <div>
             <div onClick={toggleLoop}>
-                <img src = "assets/image/loop.png" alt = "Code not loaded" />
-            </div>
+                
+            
 
-             {isLooping && (
-                <div >
-                    loop on
-                </div>
-             )}
+                {isLooping && (
+                    <div >
+                        <img src = "assets/image/Loop.png" alt = "Button not loaded" />
+                    </div>
+                )}
+
+
+                {!isLooping && (
+                    <div >
+                        <img src = "assets/image/LoopHover.png" alt = "Button not loaded" />
+                    </div>
+                )}
+
+            </div>
         </div>
         
       );
-
 }
 
-export default Loop;
+export default Loop ;
