@@ -10,12 +10,12 @@ const SongInfo = (props) =>{
     const {number, name, artist, length} = props
 
     return(
-        <div>
-            <SongNumber> {number} </SongNumber>
-            <WhiteText> {name} </WhiteText>
-            <WhiteText> {artist} </WhiteText>
-            <WhiteText> {length} </WhiteText>
-            <PlaylistAddButton/>
+        <div className={styles.infosmusic}>
+            <div className={styles.longueur10}><SongNumber > {number} </SongNumber></div>
+            <div className={styles.longueur30}><WhiteText > {name} </WhiteText></div>
+            <div className={styles.longueur40}><WhiteText > {artist} </WhiteText></div>
+            <div className={styles.longueur10}><WhiteText > {length} </WhiteText></div>
+            <div className={styles.longueur10}><PlaylistAddButton /></div>
         </div>
     )
 

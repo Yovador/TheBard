@@ -4,10 +4,10 @@ import styles from './PlaylistAddButton.module.css';
 
 const PlaylistAddButton = () =>{
 
-    const imgPath = 'https://tinyurl.com/yy738ej4'
+    const imgPath = 'assets/image/playlist.svg'
 
     return(
-        <div>
+        <div className={styles.imgjeu}>
             <img src={imgPath} />
         </div>
     )

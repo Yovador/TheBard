@@ -1,0 +1,17 @@
+.prez{
+    display: flex;
+}
+
+.infos{
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    padding-left: 30px;
+}
+
+.grey{
+    text-align: end;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
