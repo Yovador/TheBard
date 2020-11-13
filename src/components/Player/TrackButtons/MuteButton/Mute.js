@@ -16,14 +16,14 @@ const Mute = () =>{
              
 
                 {isMute && (
-                    <div >
+                    <div className = {styles.TrackButton}>
                         <img src = "assets/image/Mute.svg" alt = "Button not loaded" />
                     </div>
                 )}
 
 
                 {!isMute && (
-                    <div >
+                    <div className = {styles.TrackButton}>
                         <img src = "assets/image/VolumeIcon.svg" alt = "Button not loaded" />
                     </div>
                 )}

@@ -1,9 +1,4 @@
-.LoopButton {
-    transform: all 1s ease-in-out;     
-    transition-delay: 0.5s;
 
-}
-
-.LoopButton:hover {
+.TrackButton:hover {
     transform: scale(1.2);
 }

@@ -13,14 +13,14 @@ const Play = () =>{
         <div>
             <div onClick={togglePlay}>
                 {isPlaying && (
-                    <div >
+                    <div className = {styles.TrackButton}>
                         <img src = "assets/image/Pause.png" alt = "Button not loaded" />
                     </div>
                 )}
 
 
                 {!isPlaying && (
-                    <div >
+                    <div className = {styles.TrackButton}>
                         <img src = "assets/image/Play.png" alt = "Button not loaded" />
                     </div>
                 )}

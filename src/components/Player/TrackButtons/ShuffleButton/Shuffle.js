@@ -22,14 +22,14 @@ const Shuffle = () =>{
             
 
                 {isShuffling && (
-                    <div >
+                    <div  className = {styles.TrackButton}>
                         <img src = "assets/image/ShuffleHover.svg" alt = "Button not loaded" />
                     </div>
                 )}
 
 
                 {!isShuffling && (
-                    <div >
+                    <div  className = {styles.TrackButton}>
                         <img src = "assets/image/Shuffle.svg" alt = "Button not loaded" />
                     </div>
                 )}
