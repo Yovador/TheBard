@@ -2,6 +2,6 @@
         margin-left: 300px; /* Same as the width of the sidenav */
         padding: 50px;
         padding-bottom: 150px;
-        
+        background-image: url("background.svg");
 
 }
