@@ -8,11 +8,12 @@ const ListElement = (props) =>{
     const {list} = props
     const ElementToShow = []
     list.forEach(element => {
-        ElementToShow.push(<Item imgPath={element.imgPath} info={element.elementSub} viewId={element.viewId}> {element.elementName} </Item>)
+        ElementToShow.push(<Item  imgPath={element.imgPath} info={element.elementSub} viewId={element.viewId}> {element.elementName} </Item>)
     });
 
+    
     return(
-        <div>{ElementToShow}</div>
+        <div className={styles.list}>{ElementToShow}</div>
     )
 
 }

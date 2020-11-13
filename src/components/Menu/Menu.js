@@ -7,6 +7,7 @@ import Playlist from "./TogglePlaylist/Playlist";
 
 
 
+
 const Menu = () =>{
 
     const imgPath = 'assets/image/logo.svg' ;
