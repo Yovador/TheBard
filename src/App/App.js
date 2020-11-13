@@ -21,12 +21,16 @@ import {
 import Artiste from 'pages/Artiste/Artiste';
 import Global from 'components/Global/Global';
 
+import SearchBar from "components/SearchBar/SearchBar";
+
 
 
 function App() {
   return (
     <div>
       <Router>
+
+        
 
         <Menu/>
         <Player/>
