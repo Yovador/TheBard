@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import styles from "./Shuffle.module.css";
 const Shuffle = () =>{
 
     const [isShuffling, setIsShuffling] = useState(false);

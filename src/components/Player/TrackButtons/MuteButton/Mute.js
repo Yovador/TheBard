@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import styles from "./Mute.module.css";
 const Mute = () =>{
 
     const [isMute, setIsMute] = useState(false);

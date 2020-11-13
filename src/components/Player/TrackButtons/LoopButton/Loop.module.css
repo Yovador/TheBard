@@ -1,4 +1,4 @@
 
 .TrackButton:hover {
-    transform: scale(1.2);
+    fill : var(--red);
 }
