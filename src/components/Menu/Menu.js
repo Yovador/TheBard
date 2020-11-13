@@ -26,11 +26,8 @@ const Menu = () =>{
             </ul>
 
 
-            <div>   <MenuButton   level={1}   viewId = 'playlists' > <Playlist/>        </MenuButton>    </div>
-             <ul>
-                <li>    <MenuButton viewId = 'playlist1' > Playlist 1       </MenuButton>   </li>
-                <li>    <MenuButton viewId = 'playlist2' > Playlist 2       </MenuButton>   </li>
-            </ul> 
+            <div><Playlist/></div>
+             
 
 
             <div><Compte/></div>
