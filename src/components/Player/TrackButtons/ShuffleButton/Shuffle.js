@@ -15,16 +15,26 @@ const Shuffle = () =>{
     }
 
     return (
+
         <div>
             <div onClick={toggleShuffle}>
-                <img src ="assets/image/shuffle.png" alt = "Code not loaded" />
-            </div>
+                
+            
 
-             {isShuffling && (
-                <div >
-                    Shuffle on 
-                </div>
-             )}
+                {isShuffling && (
+                    <div >
+                        <img src = "assets/image/Shuffle.png" alt = "Button not loaded" />
+                    </div>
+                )}
+
+
+                {!isShuffling && (
+                    <div >
+                        <img src = "assets/image/ShuffleHover.png" alt = "Button not loaded" />
+                    </div>
+                )}
+
+            </div>
         </div>
         
       );
