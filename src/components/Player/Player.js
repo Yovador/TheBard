@@ -22,16 +22,10 @@ const Player = () =>{
                 <Loop/>
             </div>
             <div className = {styles.musicplayerbarbox}>
-                <p>
-                    barre
-                </p>
-
+                <img src ="assets/image/tracksDuration.png" alt ="Code not loaded" />
             </div>
             <div className = {styles.musicplayervolumebox}>
-                <p>
-                    volume
-                </p>
-
+                <img src ="assets/image/Volume.png" alt ="Code not loaded" />
             </div>
 
 
