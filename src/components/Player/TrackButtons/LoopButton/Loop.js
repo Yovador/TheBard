@@ -21,7 +21,7 @@ const Loop = () =>{
             
 
                 {isLooping && (
-                    <div >
+                    <div className = {styles.LoopButton} >
                         <img src = "assets/image/Loop.png" alt = "Button not loaded" />
                     </div>
                 )}
