@@ -1,5 +1,5 @@
 import React from 'react';
-
+import WhiteText from 'components/Text/WhiteText/WhiteText'
 import styles from "./Player.module.css";
 import Play from "components/Player/TrackButtons/PlayButton/Play"
 import Shuffle from "components/Player/TrackButtons/ShuffleButton/Shuffle"
@@ -23,15 +23,13 @@ const Player = () =>{
             </div>
             <div className = {styles.musicplayerbarbox}>
                 <p>
-                    barre
+                    <WhiteText>Rayman Legends - Whistle GlouGlou de Christophe Heral</WhiteText>
                 </p>
-
+                <img src ="assets/image/TrackBar.png" alt ="Code not loaded" />
             </div>
             <div className = {styles.musicplayervolumebox}>
-                <p>
-                    volume
-                </p>
 
+                <img src ="assets/image/VolumeBar.png" alt ="Code not loaded" />
             </div>
 
 
