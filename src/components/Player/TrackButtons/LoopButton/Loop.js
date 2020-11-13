@@ -21,15 +21,15 @@ const Loop = () =>{
             
 
                 {isLooping && (
-                    <div className = {styles.LoopButton} >
-                        <img src = "assets/image/Loop.png" alt = "Button not loaded" />
+                    <div >
+                        <img src = "assets/image/LoopHover.png" alt = "Button not loaded" />
                     </div>
                 )}
 
 
                 {!isLooping && (
                     <div >
-                        <img src = "assets/image/LoopHover.png" alt = "Button not loaded" />
+                        <img src = "assets/image/Loop.png" alt = "Button not loaded" />
                     </div>
                 )}
 

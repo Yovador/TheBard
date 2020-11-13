@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './ListElement.module.css';
 import Item from 'components/MainDisplay/Item/Item'
+import List from "components/List/List";
 
 
 const ListElement = (props) =>{
@@ -13,7 +14,7 @@ const ListElement = (props) =>{
 
     
     return(
-        <div className={styles.list}>{ElementToShow}</div>
+        <List className={styles.list}>{ElementToShow} </List>
     )
 
 }
