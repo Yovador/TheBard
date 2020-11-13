@@ -12,7 +12,11 @@ const Licence = () => {
     <div>
 
       <MainTitle>Tendance</MainTitle>
+      
       <ShownPlaylist Info = {firstCategoryInfo}> From Japan </ShownPlaylist>
+
+      <ShownPlaylist Info = {firstCategoryInfo}> From Japan </ShownPlaylist>
+
 
     </div>
   )

@@ -16,9 +16,9 @@ const Play = () =>{
 
     return (
         <div>
-            <button onClick={togglePlay}>
+            <div onClick={togglePlay}>
                 <img src = "assets/image/Play.png" alt = "Button not loaded" />
-             </button>
+             </div>
 
              {isPlaying && (
                 <div >

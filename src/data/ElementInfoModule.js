@@ -27,7 +27,9 @@ const personaGameList= [persona3, persona4, persona5, persona3, persona4, person
 
 export const persona = new          ElementInfo('https://tinyurl.com/yyad2c6c', 'Persona', 'Atlus', 'persona', 'I am thou... Thou art I...', personaGameList)
 export const yakuza = new           ElementInfo('https://tinyurl.com/y22rrkxa', 'Yakuza', 'Ryu Ga Gotoku Studio', 'yakuza', 'Dame da ne')
-export const darksouls = new        ElementInfo('https://tinyurl.com/y5maupq2', 'Dark Souls', 'From Software', 'darksouls', 'Humanity Restored')
+export const darksouls = new        ElementInfo('https://tinyurl.com/y3syzu7y', 'Dark Souls', 'From Software', 'darksouls', 'Humanity Restored')
 
-
+export const atlus = new            ElementInfo('https://tinyurl.com/yy7ngz2l', 'Atlus', 'atlus', 'Megami Tensei, Shin Megami Tensei, Shin Megami Tensei Persona, etc', personaGameList)
+export const ryuga = new            ElementInfo('https://tinyurl.com/y3anv7fv', 'Ryu ga gotoku Studio', 'ryuga', 'The Yakuza way')
+export const fromsoftware = new     ElementInfo('https://tinyurl.com/y5maupq2', 'From Software', 'fromsoftware', 'You gonna die')
 
