@@ -18,12 +18,10 @@
     }
   
 .musicplayerimagebox {
-  height: 100%;
   width: 6%;
 }
 .musicplayerimage {
   height: 100%;
-  width: 100%;
 }
 .musicplayerplaybox {
   display: flex;
