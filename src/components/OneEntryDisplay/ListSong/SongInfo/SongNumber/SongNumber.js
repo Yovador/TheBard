@@ -6,7 +6,7 @@ const SongNumber = (props) =>{
 
     const {children} = props
 
-    const imgPath = 'https://tinyurl.com/y58yslj6'
+    const imgPath = 'assets/image/rondRouge.svg'
 
     return(
         <div className={styles.cont} >
