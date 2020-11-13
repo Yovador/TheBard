@@ -1,14 +1,24 @@
 import React from 'react'
 import styles from './Artiste.module.css'
-import Item from 'components/MainDisplay/Item/Item'
-
+import ShownPlaylist from "components/MainDisplay/ShownPlaylist/ShownPlaylist";
+import MainTitle from "components/MainDisplay/MainTitle/MainTitle"
+import { smeguro, hshoji, linaizumi } from 'data/ElementInfoModule';
 
 const Artiste = () => {
-    const imgPath = 'https://tinyurl.com/y3yee6b7'
+  const firstCategoryInfo = [smeguro, hshoji, linaizumi]
 
-    return (
-      <Item imgPath={imgPath} info="Journaliste">Julien Chièze</Item>
-    )
+
+  return (
+    <div>
+
+      <MainTitle>Tendance</MainTitle>
+      <ShownPlaylist Info = {firstCategoryInfo}> From Japan </ShownPlaylist>
+
+      <ShownPlaylist Info = {firstCategoryInfo}> From Japan </ShownPlaylist>
+
+
+    </div>
+  )
 }
 
 export default Artiste
