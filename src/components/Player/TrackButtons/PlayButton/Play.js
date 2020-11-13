@@ -16,13 +16,13 @@ const Play = () =>{
 
     return (
         <div>
-            <button onClick={togglePlay}>
-                Play
-             </button>
+            <div onClick={togglePlay}>
+                <img src = "assets/image/Play.png" alt = "Button not loaded" />
+             </div>
 
              {isPlaying && (
                 <div >
-                    the track is playing
+                    <img src = "assets/image/Pause.png" alt = "Button not loaded" />
                 </div>
              )}
         </div>
