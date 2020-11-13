@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from './Artiste.module.css'
 import ShownPlaylist from "components/MainDisplay/ShownPlaylist/ShownPlaylist";
 import MainTitle from "components/MainDisplay/MainTitle/MainTitle"
 import { smeguro, hshoji, linaizumi } from 'data/ElementInfoModule';
