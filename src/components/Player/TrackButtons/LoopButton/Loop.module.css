@@ -1,4 +1,6 @@
-
-.TrackButton:hover {
+.TrackButton svg {
+    fill : var(--white);
+}
+.TrackButton svg:hover {
     fill : var(--red);
 }
