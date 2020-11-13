@@ -3,4 +3,5 @@
 }
 .TrackButton svg:hover {
     fill : var(--red);
+    transform: scale(1.2);
 }
